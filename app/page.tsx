@@ -25,20 +25,20 @@ export default function Home() {
       <div className="section">
         <h2>About Ice Cube</h2>
         <p>
-          Ice Cube, born O'Shea Jackson on June 15, 1969, is a renowned rapper,
-          actor, and filmmaker. He is one of the founding members of the seminal
-          rap group N.W.A. and has had a significant impact on both the music
-          and film industries. Ice Cube's work has transcended generations,
-          making him a cultural icon.
+          Ice Cube, born O&apos;Shea Jackson on June 15, 1969, is a renowned
+          rapper, actor, and filmmaker. He is one of the founding members of the
+          seminal rap group N.W.A. and has had a significant impact on both the
+          music and film industries. Ice Cube&apos;s work has transcended
+          generations, making him a cultural icon.
         </p>
       </div>
       <div className="section">
         <h2>Ice Cube Coin</h2>
         <p>
-          In celebration of Ice Cube's birthday, we have created a special meme
-          coin. This coin is a tribute to his lasting influence on pop culture
-          and his contributions to the world of music and entertainment. Join us
-          in honoring Ice Cube with this unique digital collectible.
+          In celebration of Ice Cube&apos;s birthday, we have created a special
+          meme coin. This coin is a tribute to his lasting influence on pop
+          culture and his contributions to the world of music and entertainment.
+          Join us in honoring Ice Cube with this unique digital collectible.
         </p>
       </div>
       <div className="images">
