@@ -50,25 +50,7 @@ main {
   margin: 10px;
   border-radius: 10px;
 }
-.socials {
-  text-align: center;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.socials a {
-  margin: 0 20px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2em;
-  display: inline-block;
-  text-align: center;
-}
-.socials a img {
-  display: block;
-  margin: 0 auto 5px;
-  width: 32px;
-  height: 32px;
-}
+
 .change-background-button {
   display: block;
   margin: 20px auto;

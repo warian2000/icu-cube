@@ -1,23 +1,40 @@
 "use client";
 import Image from "next/image";
 
+const socials = [
+  {
+    image: "images/custom-icon.png",
+    href: "https://dexscreener.com/",
+  },
+  {
+    image: "images/custom-icon2.png",
+    href: "https://pump.fun/board/",
+  },
+  {
+    image: "images/custom-icon3.png",
+    href: "https://t.me/icecubefuncoin/",
+  },
+  {
+    image: "images/custom-icon4.png",
+    href: "https://x.com/IceCubeFANpump",
+  },
+];
+
 export default function Home() {
   return (
     <main className="min-h-screen">
       <header>
-        <div className="socials">
-          <a href="https://dexscreener.com/" target="_blank">
-            <img src="images/custom-icon.png" alt="Custom Icon" />
-          </a>
-          <a href="https://pump.fun/board/" target="_blank">
-            <img src="images/custom-icon2.png" alt="Custom Icon" />{" "}
-          </a>
-          <a href="https://t.me/icecubefuncoin/" target="_blank">
-            <img src="images/custom-icon3.png" alt="Custom Icon" />
-          </a>
-          <a href="https://x.com/IceCubeFANpump" target="_blank">
-            <img src="images/custom-icon4.png" alt="Custom Icon" />
-          </a>
+        <div className="flex gap-6 justify-center align-center  p-2">
+          {socials.map(({ image, href }) => (
+            <a
+              className="btn btn-square btn-ghost"
+              key={image}
+              href={href}
+              target="_blank"
+            >
+              <img src={image} alt="Custom Icon" />
+            </a>
+          ))}
         </div>
         <h1>Ice Cube Birthday Celebration</h1>
         <p>Celebrating one of the best rapper and actor, Ice Cube</p>
