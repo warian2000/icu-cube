@@ -22,7 +22,7 @@ const socials = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen font-custom">
       <header>
         <div className="flex gap-6 justify-center align-center  p-2">
           {socials.map(({ image, href }) => (
@@ -38,6 +38,7 @@ export default function Home() {
         </div>
         <h1>Ice Cube Birthday Celebration</h1>
         <p>Celebrating one of the best rapper and actor, Ice Cube</p>
+        <p className="text-primary font-bold">Born in 06/15/1969 🎉</p>
       </header>
       <div className="section">
         <h2>About Ice Cube</h2>

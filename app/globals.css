@@ -65,3 +65,10 @@ main {
 .change-background-button:hover {
   background-color: #666;
 }
+
+@font-face {
+  font-family: "bronx";
+  src: url("../public/fonts/bronx.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
