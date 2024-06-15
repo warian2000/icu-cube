@@ -8,7 +8,7 @@ const socials = [
   },
   {
     image: "images/custom-icon2.png",
-    href: "https://pump.fun/board/",
+    href: "https://pump.fun/CSkXJLa1XWoRV1ZNw79JmNtHvDa2FoAe3RgdaGSNpump",
   },
   {
     image: "images/custom-icon3.png",
@@ -36,12 +36,17 @@ export default function Home() {
             </a>
           ))}
         </div>
+        <h1 className="text-accent">$ICB</h1>
+
         <h1>Ice Cube Birthday Celebration</h1>
-        <p>Celebrating one of the best rapper and actor, Ice Cube</p>
-        <p className="text-primary font-bold">Born in 06/15/1969 🎉</p>
+        <p>
+          Celebrating one of the best rapper and actor, Ice Cube, with this
+          token!
+        </p>
+        <p className="text-accent font-bold">Born in 06/15/1969 🎉</p>
       </header>
       <div className="section">
-        <h2>About Ice Cube</h2>
+        <h2 className="text-accent">About Ice Cube</h2>
         <p>
           Ice Cube, born O&apos;Shea Jackson on June 15, 1969, is a renowned
           rapper, actor, and filmmaker. He is one of the founding members of the
@@ -51,7 +56,7 @@ export default function Home() {
         </p>
       </div>
       <div className="section">
-        <h2>Ice Cube Coin</h2>
+        <h2 className="text-accent">Ice Cube Coin</h2>
         <p>
           In celebration of Ice Cube&apos;s birthday, we have created a special
           meme coin. This coin is a tribute to his lasting influence on pop
